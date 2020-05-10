@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>たけぼうのプログラミング実験手帳</title>
+    <link rel="stylesheet" href="./css/master.css" type="text/css">
+    <style type="text/css">
+      @import url('./css/top_specialstyle.css');
+    </style>
+  </head>
+  <body>
+
+    <!--　ヘッダー　-->
+    <header>
+      <h1>たけぼうのプログラミング実験<ruby>手帳<rt>のーと</rt></ruby></h1>
+      <nav>
+        <ul id="menu">
+          <li><a href="{% url 'myprofile:top' %}">トップページ</a></li>
+          <li><a href="{% url 'myprofile:resume' %}">resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--　コンテナ　-->
+    <div id="container">
+    <!--　メインコンテンツ　-->
+    {% block content%}{% endblock %}
+    <!--　フッター　-->
+    <footer>
+      <hr>
+      <p>Copyright (C) たけぼう,All rights reserved.</p>
+    </footer>
+  </div>
+  </body>
+</html>

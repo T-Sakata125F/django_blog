@@ -1,0 +1,27 @@
+body {
+  background-color: #ffffcc;
+}
+header  h1 {
+  font-size: 1.8em;
+  font-family: serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+}
+section h2 {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  background-color: lightgreen;
+  font-weight: bold;
+}
+footer p {
+  text-align: center;
+}
+img#myphoto {
+  float: right;
+  padding: 0;
+  margin: auto;
+  border: 1px solid white;
+}
+p {
+  margin: 0px;
+}

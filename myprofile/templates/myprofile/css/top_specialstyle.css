@@ -1,0 +1,54 @@
+/*コンテナ*/
+div#container {
+  width: 900px;
+  margin: auto;
+}
+header {
+  padding: 25px;
+  height: 70px;
+  line-height: 1;
+}
+header h1 {
+  font-size: 2em;
+  font-family: serif;
+  margin: 0;
+  padding: 10px;
+  height: auto;
+}
+h2 {
+  text-align: center;
+}
+nav {
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 0.95em;
+}
+ul#menu {
+  margin: 0;
+  padding-left: 0;
+  height: 30px;
+  background-color: lightskyblue;
+}
+ul#menu li {
+  width: 220px;
+  float: left;
+  list-style-type: none;
+}
+ul#menu a {
+  display: block;
+  background-color: lightskyblue;
+  border-right: 2px solid white;
+  line-height: 30px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+ul#menu a:hover {
+color: white;
+background-color: deepskyblue;
+text-shadow: 0px 0px 1px yellow;
+}
+ul#menu a:active {
+  color: orange;
+}

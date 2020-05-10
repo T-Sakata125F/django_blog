@@ -1,0 +1,26 @@
+{% extends 'myprofile/base.html' %}
+
+{% block title %}1・２・ジャンゴ！{% endblock %}
+
+{% block content %}
+<main>
+  <section>
+    <div id="news">
+      <h2>{{ name }}ニュース!?</h2>
+      <ul>
+        <li>２０２０年５月7月。部屋も模様替えしたので、気分一新。ゴールデンウイークでクラスの概念が少し理解できた気がする。</li>
+        <li>２０２０年５月６日作成。新型コロナウイルスの蔓延につき、自宅待機中に作成する。気が向いたら更新しよう。</li>
+      </ul>
+    </div>
+    <div id="contact">
+      <h2>コンタクト</h2>
+      <label for="name">お名前</label>
+      <input id="name" type="text" name="test">
+      <label for="honnbunn">本文</label>
+      <textarea id="honnbunn" type="text" name="test"></textarea>
+    </div>
+
+
+  </section>
+</main>
+{% endblock %}
